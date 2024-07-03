@@ -1,0 +1,58 @@
+:root {
+    --primary-color: #FF2681;
+    --gap: 3rem;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.menu-content {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: var(--gap);
+}
+.menu-content img {
+    min-height: auto;
+    max-width: 10rem;
+    border-radius: 2.5rem;
+}
+.menu-content h1 {
+    font-weight: 900;
+    padding-left: 4rem;
+}
+.menu-content h1 span {
+    font-weight: 500;
+    font-style: italic;
+}
+.nav-pages {
+    margin-inline-start: auto;
+    gap: var(--gap);
+}
+.nav-pages ul li a {
+    font-size: 1.6rem;
+}
+.menu ul li a:hover {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+#home {
+    background-color: #FFF1F8;
+}
+#about-us {
+    background-color: palegreen;
+}
+#contact-us {
+    background-color: plum;
+}
+#system {
+    background-color: palevioletred;
+}
