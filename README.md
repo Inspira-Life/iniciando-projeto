@@ -23,10 +23,5 @@
 > README.md
 
 
-### Commits:
-`new:` nova mudança
 
-`feat:` nova feature 
-
-`add:` adicionou um componente
 
