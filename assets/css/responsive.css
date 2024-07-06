@@ -1,3 +1,10 @@
-@media (max-width: 320px) {
-    /* ! Fazer o menu bar para celular */
+@media (max-width: 320px) and (max-width: 768px) {
+    html {
+        background-color: red;
+    }
+    .menu-content img {
+        min-height: 1rem;
+        max-width: 1rem;
+        border-radius: 2.5rem;
+    }
 }
