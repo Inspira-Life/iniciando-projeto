@@ -1,58 +1,106 @@
 :root {
-    --primary-color: #FF2681;
+    --primary-color: #ea3983;
     --gap: 3rem;
 }
+
 .menu {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
     width: 100%;
+    background-color: rgb(37, 36, 37);
+    z-index: 1000; 
+    top: 0; 
+    left: 0;
+    height: 60px; 
 }
+
 .menu-content {
     display: flex;
     align-items: center;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0 var(--gap);
+    height: 100%;
 }
+main {
+    margin-top: 60px; 
+}
+
 .main-content {
     max-width: 120rem;
     margin: 0 auto;
     padding: var(--gap);
 }
+
 .menu-content img {
     min-height: auto;
     max-width: 10rem;
     border-radius: 2.5rem;
 }
+
 .menu-content h1 {
     font-weight: 900;
     padding-left: 4rem;
 }
+
 .menu-content h1 span {
     font-weight: 500;
     font-style: italic;
+    font-size: 25px;
 }
+
 .nav-pages {
-    margin-inline-start: auto;
+    margin-left: auto;
+    display: flex;
     gap: var(--gap);
 }
+
+.nav-pages ul {
+    display: flex;
+    list-style: none;
+}
+
 .nav-pages ul li a {
     font-size: 1.6rem;
+    text-decoration: none;
+    color: #ffffff;
 }
+
 .menu ul li a:hover {
     font-weight: 700;
     color: var(--primary-color);
 }
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+header div h1 {
+    color: white;
+    font-size: 30px;
+}
+
 #home {
-    background-color: #FFF1F8;
+    background-color: #353333;
 }
+
 #about-us {
-    background-color: palegreen;
+    background-color: rgb(255, 255, 255);
 }
+
 #contact-us {
-    background-color: plum;
+    background-color: rgb(219, 130, 219);
 }
+
 #system {
-    background-color: palevioletred;
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    margin: auto;
+}
+
+.learning-content {
+    padding: 20px;
 }
