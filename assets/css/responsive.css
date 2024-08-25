@@ -1,10 +1,19 @@
-@media (max-width: 320px) and (max-width: 768px) {
+@media (max-width: 768px) {
     html {
         background-color: red;
     }
+
     .menu-content img {
         min-height: 1rem;
         max-width: 1rem;
         border-radius: 2.5rem;
     }
+
+    .interactive-3d, .learning-content {
+        flex: 1;
+        margin-left: 0;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
+
