@@ -67,62 +67,17 @@ header section nav ul {
     margin-left: 20%;
 }
 
-.Border_topics {
-    font-size: 5.0rem;
-    background-color: #ece6e6;
-    margin-top: 2%;
-    text-align: left;
-    margin-left: 35%;
-    margin-right: 35%;
-    border-radius: 8px;
-}
-
-.Border_topics a {
-    font-size: 20px;
-    text-decoration: none;
-    text-align: left;
-    color: black;
-    padding: 5%;
-}
-
-.Border_topics p {
-    font-size: 15px;
-    color: rgb(88, 87, 87);
-    padding: 3%;
-}
-
-/* CSS Anatomia */
-.body-anatomy {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-}
-
-.main-anatomy {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
-}
-
-.interactive-3d, .learning-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Ajuste para telas maiores */
 @media (min-width: 768px) {
     .main-anatomy {
-        flex-direction: row; /* Alinha lado a lado */
+        flex-direction: row; 
     }
 
     .interactive-3d {
-        flex: 1; /* Ajusta o tamanho do modelo 3D */
+        flex: 1; 
     }
 
     .learning-content {
         flex: 1; /* Ajusta o tamanho do texto */
-        margin-left: 20px; /* Espaçamento entre o modelo 3D e o texto */
+        margin-left: 20px; 
     }
 }
