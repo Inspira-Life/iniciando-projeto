@@ -83,11 +83,17 @@ header div h1 {
     color: white;
     font-size: 30px;
 }
-
+/*Css Home*/
 #home {
     background-color: #353333;
 }
-
+#home h1{
+    color: rgb(200, 197, 197);
+    padding: 20% 0 0 3%;
+    font-size: 30px;
+    text-transform: capitalize;
+font-style: italic;
+}
 #about-us {
     background-color: rgb(255, 255, 255);
 }
