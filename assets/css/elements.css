@@ -98,45 +98,47 @@ header div h1 {
 }
 
 #about-us {
-    background-color: rgb(255, 255, 255);
+    background-color:#353333;
 }
 
 #contact-us {
-    background-color: rgb(219, 130, 219);
+    background-color: #353333;
 }
-
+/*CSS Sistema Respiratório*/
 #system {
     background-color: rgb(255, 255, 255);
-    padding: 9px;
-    margin: auto;
+ 
 }
-
+#system ul{
+    margin-top: 1%;
+    padding: 4%;
+}
+#system li{
+    background-color: rgb(229, 229, 231);
+    padding: 0;
+    height: 100px;
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+#system li a{
+    color: black;
+    padding: 2%;
+    font-size: 20px;
+    display: inline-block;
+}
+#system li a:hover{
+    color: #f4b33a;
+}
+#system li p{
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
 .learning-content {
     padding: 20px;
-}
-
-.Border_topics {
-    font-size: 5.0rem;
-    background-color: #ece6e6;
-    margin-top: 2%;
-    text-align: left;
-    margin-left: 35%;
-    margin-right: 35%;
-    border-radius: 8px;
-}
-
-.Border_topics a {
-    font-size: 20px;
-    text-decoration: none;
-    text-align: left;
-    color: black;
-    padding: 5%;
-}
-
-.Border_topics p {
-    font-size: 15px;
-    color: rgb(88, 87, 87);
-    padding: 3%;
 }
 
 /* CSS Anatomia */
@@ -148,37 +150,28 @@ header div h1 {
 
 .main-anatomy {
     display: flex;
-    gap: 50px;
     padding: 2%;
+    justify-content: space-around;
 }
 
 .interactive-3d {
-    width: 100%;
-    /* Ajuste conforme necessário */
-    max-width: 1000px;
-    /* Largura máxima definida */
-    height: 800px;
-    /* Altura fixa */
-    margin: 0 auto;
-    /* Centraliza horizontalmente */
-    padding: 20px;
+    width: 35%;
+    max-width:700px;/* Largura máxima definida */
+    height: 540px;/* Altura fixa */
+    margin: 0 auto;/* Centraliza horizontalmente */
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
-    justify-content: center;
-    /* Centraliza horizontalmente o conteúdo */
-    align-items: center;
-    /* Centraliza verticalmente o conteúdo */
-    position: relative;
+    justify-content: center;/* Centraliza horizontalmente o conteúdo */
+    align-items: center;/* Centraliza verticalmente o conteúdo */
 }
 
-
 .learning-content {
-    max-height: 800px;
-    margin: auto;
+    max-height: 540px;
     background-color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: auto;
