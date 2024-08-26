@@ -83,17 +83,20 @@ header div h1 {
     color: white;
     font-size: 30px;
 }
+
 /*Css Home*/
 #home {
     background-color: #353333;
 }
-#home h1{
+
+#home h1 {
     color: rgb(200, 197, 197);
     padding: 20% 0 0 3%;
     font-size: 30px;
     text-transform: capitalize;
-font-style: italic;
+    font-style: italic;
 }
+
 #about-us {
     background-color: rgb(255, 255, 255);
 }
@@ -150,17 +153,23 @@ font-style: italic;
 }
 
 .interactive-3d {
-    width: 100%; /* Ajuste conforme necessário */
-    max-width: 1000px; /* Largura máxima definida */
-    height: 800px; /* Altura fixa */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    width: 100%;
+    /* Ajuste conforme necessário */
+    max-width: 1000px;
+    /* Largura máxima definida */
+    height: 800px;
+    /* Altura fixa */
+    margin: 0 auto;
+    /* Centraliza horizontalmente */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente o conteúdo */
-    align-items: center; /* Centraliza verticalmente o conteúdo */
+    justify-content: center;
+    /* Centraliza horizontalmente o conteúdo */
+    align-items: center;
+    /* Centraliza verticalmente o conteúdo */
     position: relative;
 }
 
@@ -182,24 +191,27 @@ font-style: italic;
 .learning-content p {
     font-size: 20px;
 }
-.next{
+
+.next {
     padding: 5px;
     width: 80px;
     height: 35px;
     background-color: rgb(244, 201, 72);
     border-radius: 15px;
-    cursor: pointer;  
+    cursor: pointer;
     margin-left: 92%;
     margin-bottom: 1%;
 }
-.next a{
+
+.next a {
     font-size: 15px;
     margin-left: 8%;
     text-decoration: none;
     color: #000000;
 }
+
 /*Nariz CSS button*/
-.flex-section{
+.flex-section {
     height: 60px;
     margin-left: 55%;
     margin-right: 5%;
@@ -208,15 +220,16 @@ font-style: italic;
     justify-content: space-between;
 }
 
-.flex-section a{
+.flex-section a {
     border-radius: 15px;
-    background-color:  rgb(244, 201, 72);
+    background-color: rgb(244, 201, 72);
     font-size: 18px;
     color: #000000;
     text-decoration: none;
     padding: 5px;
-  
+
 }
-.flex-section a:hover{
+
+.flex-section a:hover {
     background-color: rgb(240, 240, 95);
 }
