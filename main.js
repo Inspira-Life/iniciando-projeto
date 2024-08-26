@@ -1,3 +1,5 @@
+const GITHUB_PAGES_URL = 'https://inspira-life.github.io/iniciando-projeto';
+
 // Configuração básica da cena, câmera e renderizador
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -23,7 +25,7 @@ scene.add(fillLight);
 
 // Carregar o modelo 3D
 const loader = new THREE.GLTFLoader();
-loader.load('/models/pulmao1.gltf', function (gltf) {
+loader.load(`${GITHUB_PAGES_URL}/models/pulmao1.gltf`, function (gltf) {
     const model = gltf.scene;
     scene.add(model);
 
