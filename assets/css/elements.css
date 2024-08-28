@@ -73,9 +73,8 @@ footer {
     background-color: #000000;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 10px;
     position: relative;
-    bottom: 0;
     width: 100%;
 }
 
@@ -109,11 +108,8 @@ header div h1 {
     background-color: rgb(255, 255, 255);
  
 }
-#system ul{
-    margin-top: 1%;
-    padding: 4%;
-}
-#system li{
+
+#system div{
     background-color: rgb(229, 229, 231);
     padding: 0;
     height: 100px;
@@ -123,16 +119,17 @@ header div h1 {
     margin-bottom: 20px;
     display: inline-block;
 }
-#system li a{
+#system div a{
     color: black;
     padding: 2%;
     font-size: 20px;
     display: inline-block;
+    text-decoration: none;
 }
-#system li a:hover{
+#system div a:hover{
     color: #f4b33a;
 }
-#system li p{
+#system div p{
     text-align: center;
     padding: 5px;
     font-size: 14px;
@@ -156,7 +153,7 @@ header div h1 {
 
 .interactive-3d {
     width: 35%;
-    max-width:700px;/* Largura máxima definida */
+    max-width:650px;/* Largura máxima definida */
     height: 540px;/* Altura fixa */
     margin: 0 auto;/* Centraliza horizontalmente */
     padding: 10px;
@@ -171,7 +168,7 @@ header div h1 {
 .learning-content {
     max-height: 540px;
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: auto;
